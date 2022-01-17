@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Camilo García Saldarriaga - Ingeniero en sistemas" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!--Imagen arriba-->
+	<link type="image/x-icon" href="image/codeico.png" rel="icon" />
+
+	<link href="https://fonts.googleapis.com/css?family=K2D:300|Rambla:700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<title>Camilo García - Ingeniero</title>
+</head>
+<body>
+	<div class="loader">
+		<div class="loader__container">
+			<div class="loader__hexagon"></div>
+			<p class="loader__message">Cargando portafolio...</p>
+		</div>
+	</div>
+
+	<div class="blanketBody"></div>
+
+	<div class="control-actions">
+		<span class="control-actions__menu"><i class="fas fa-paw"></i></span>
+	</div>
+
+	<div class="container-master">
+		<!-- Éste es el menú para dispositivos móviles y tablet's -->
+		<div class="myself__container__menu">
+			<div class="myself__data">
+				<div class="myself__data__container-avatar">
+					<div class="myself__data__avatar"></div>
+				</div>
+				<div class="myself__data__info">
+					<h4 class="myself__data__info__fullname">Camilo García Saldarriaga</h4>
+					<p class="myself__data__info__role">Ingeniero de sistemas</p>
+				</div>
+			</div>
+
+			<ul class="myself__menu">
+				<a href="#home" class="myself__menu__link myself__menu__link--active">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-home fa-stack-1x fa-inverse"></i>
+						</span>
+						Inicio
+					</li>
+				</a>
+				<a href="#welcome" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-lightbulb fa-stack-1x fa-inverse"></i>
+						</span>
+						Acerca de Mi
+					</li>
+				</a>
+				<a href="#portfolio" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+						</span>
+						Mi Portafolio
+					</li>
+				</a>
+				<a href="#contact" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-address-book fa-stack-1x fa-inverse"></i>
+						</span>
+						Contáctame
+					</li>
+				</a>
+			</ul>
+		</div>
+
+		<!-- Esta es la sección principal, donde se muestra la información básica -->
+		<section class="container__myself">
+			<span class="myself__menu__action"><i class="fas fa-paw"></i></span>
+
+			<article class="myself">
+				<div class="myself__profile">
+					<div class="myself__container__avatar">
+						<div class="myself__avatar"></div>
+					</div>
+					<h1 class="myself__fullname">Camilo García Saldarriaga</h1>
+					<p class="myself__description">Ingeniero de Sistemas</p>
+				</div>
+				<div class="myself__footer">
+					<div class="myself__footer__by">
+						<p>Hecho con <i class="fa fa-desktop" style="color:#ffffff;"></i></p>
+						<p>© 2022</p>
+					</div>
+					<div class="myself__footer__social">
+						<a class="myself__footer__link" href="https://www.linkedin.com/in/camilo-garcia-saldarriaga-616168220/" target="_blank">
+							<i class="fab fa-linkedin"></i>
+						</a>
+						<a class="myself__footer__link" href="https://twitter.com/cg9022" target="_blank">
+							<i class="fab fa-twitter-square"></i>
+						</a>
+						<a class="myself__footer__link" href="https://github.com/camilogs1" target="_blank">
+							<i class="fab fa-github-square"></i>
+						</a>
+						<a class="myself__footer__link" href="https://www.youtube.com/channel/UCIe_u39-reg9bMLJSRXnd-g" target="_blank">
+							<i class="fab fa-youtube"></i>
+						</a>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<!-- Éste contenedor muestra los artículos que actualmente están en la página -->
+		<section class="container__articles">
+			<nav class="menu">
+				<ul class="menu-list">
+					<a href="#welcome" class="menu-list__link menu-list__link--active">
+						<li class="menu-list__item">Acerca de Mi</li>
+					</a>
+					<a href="#portfolio" class="menu-list__link">
+						<li class="menu-list__item">Mi Portafolio</li>
+					</a>
+					<a href="#contact" class="menu-list__link">
+						<li class="menu-list__item">Contáctame</li>
+					</a>
+				</ul>
+			</nav>
+
+			<article class="welcome article--show" id="welcome">
+				<h2 class="welcome__title">¡Bienvenido!</h2>
+				<p class="welcome__description">Mi nombre es <strong>Camilo</strong>, soy un estudiante de ingeniería de sistemas y vivo en la ciudad de Medellín. Mis lenguajes de programación favoritos son <strong>Python</strong> y <strong>R</strong>, con ellos he aprendido muchas cosas y con ellos desarrollo actualmente. Mi objetivo es usarlos como herramientas para crear soluciones tecnológicas a las problematicas actuales. <br /> Estoy convencido de que el trabajo en equipo es la mejor forma de progresar en cualquier proyecto. <br/></p>
+
+				<h2 class="welcome__title">Sobre mi</h2>
+				<p class="welcome__description">Capacidad para la solución de problemas, autodidacta, abierto al cambio, con muchas ganas de aprender y gran facilidad a trabajar en equipo, además de dar lo mejor que tenga para poder cumplir mis objetivos.</p>
+
+				<h2 class="welcome__title">Sobre mi trabajo</h2>
+				<p class="welcome__description">Actualmente pertenezco a Core of Science en el cual he realizado proyectos para la universidad católica Luis Amigó, esta oportunidad me ha permito crecer y desarrollar mis habilidades personales y tecnicas, además de ganar experiencias que me ayudan a mejorar tanto profesionalmente como humanamente.</p>
+
+				<div class="welcome__container-stack">
+					<!-- Frontend -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Frontend</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-html5" style="color:#f16529;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-css3-alt" style="color:#0170ba;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-js" style="color:#ffe629; background-color: #2d2d2d;"></i>
+							</div>
+							<!--
+							<div class="welcome__stack__tool">
+								<i class="fab fa-bootstrap" style="color:#563d7c;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-sass" style="color:#c6538c;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-ember" style="color:#E04E39;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-vuejs" style="color:#4fc08d;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-react" style="color:#2196F3;"></i>
+							</div>
+							-->
+						</div>
+					</div>
+					<!-- Backend --> 
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Backend</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-java" style="color:#ED1C24;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-r-project" style="color:#25799f;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-python" style="color:#0091e2;"></i>
+							</div>
+						</div>
+					</div>
+					<!-- Herramientas de Trabajo -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Gestión de proyectos</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-git-alt" style="color:#f64e27;"></i>
+							</div>
+							<!--
+							<div class="welcome__stack__tool">
+								<i class="fab fa-trello" style="color:#0079bf;"></i>
+							</div>
+							-->
+						</div>
+					</div>
+					<!-- Databases 
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Bases de datos</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="mongodb" />
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" alt="postgresql" />
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="mysql" />
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://cdn.worldvectorlogo.com/logos/cockroachdb.svg" alt="cockroach" />
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" />
+							</div>
+						</div>
+					</div>
+					-->
+					<!-- Servicios en la nube 
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Servicios en la nube</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-aws" style="color:#13aa52;"></i>
+							</div> 
+							<div class="welcome__stack__tool">
+								<i class="fab fa-digital-ocean" style="color:#0069ff;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" />
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="googlecloud" />
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://www.vectorlogo.zone/logos/zeit/zeit-icon.svg" alt="zeithq" />
+							</div>
+						</div>
+					</div>
+					-->
+					<!-- Servidores 
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Servidores</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-linux" style="color:#2d2d2d;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-ubuntu" style="color:#e95420;"></i>
+							</div>
+						</div>
+					</div>
+					-->
+				</div>
+			</article>
+
+			<article class="portfolio" id="portfolio">
+				<h2 class="portfolio__title">Mi Portafolio</h2>
+				<p class="portfolio__description">En esta sección encontrarás los proyectos en los que he trabajado, también encontrarás algunas pruebas e inventos. Todo lo que sé hacer con las herramientas que uso.</p>
+				<blockquote class="portfolio__blockquote">Puedes encontrar más información sobre mis proyectos en mi perfil de <strong>Github</strong>.</blockquote>
+
+				<section class="portfolio__works">
+					<!-- PlyMath -->
+					<article class="portfolio__works__item" id="plymath">
+						<div class="portfolio__works__item__header">
+							<img src="image/plymath.png" class="portfolio__works__item__header__logo">
+							<h3 class="portfolio__works__item__header__title">
+								PlyMath
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">Is a desktop application that has a simple but friendly environment when developing the main calculation problems II (integral)</p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Desarrollador Full Stack</div>
+							<div>
+								<i class="fab fa-python" style="color:#0091e2;"></i>
+							</div>
+						</div>
+					</article>
+					<!-- MARGARET -->
+					<article class="portfolio__works__item" id="margaret">
+						<div class="portfolio__works__item__header">
+							<img src="image/margaret.png" class="portfolio__works__item__header__logo">
+							<h3 class="portfolio__works__item__header__title">
+								Margaret
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">This package extracts data from <strong>Minciencias</strong> web pages about research groups and researchers, merge information with quality of articles from <strong>Scimago</strong>,<strong>Publindex</strong> and <strong>Google scholar</strong>. And export the data in a xlsx file.</p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Desarrollador Full Stack</div>
+							<div>
+								<i class="fab fa-r-project" style="color:#25799f;"></i>
+							</div>
+						</div>
+					</article>
+				</section>
+			</article>
+
+			<article class="contact" id="contact">
+				<h2 class="contact__title">¿Necesitas soluciones tecnológicas para ti o tu empresa?</h2>
+				<p class="contact__description">Has llegado al lugar indicado. Actualmente hago parte de un excelente grupo de trabajo, dispuesto a solucionar tu problema usando las mejores técnicas de análisis y desarrollo de software. <br> <br> Puedes contactarme para así hablar de tu idea. Podrás encontrar mis redes sociales en el panel principal o si deseas, puedes escribirme a mi correo <a class="welcome__community" href="https://mail.google.com/mail/?view=cm&fs=1&to=saldarriagagarciacamilo@gmail.com" target="_blank">saldarriagagarciacamilo@gmail.com</a>. <br><br> Si tienes algún comentario con respecto a mi portafolio, házmelo saber <a class="welcome__community" href="https://github.com/camilogs1/Portfolio/issues" target="_blank">aquí.</a><br> Agradecimientos a <a class="welcome__community" href="https://github.com/jfbaquerocelis" target="_blank">jfbaquerocelis</a>.</p>
+				<!--
+				<div class="contact__social">
+					<a class="contact__social__link" href="a" target="_blank">
+						<i class="fab fa-instagram" style="color: palevioletred;"></i>
+					</a>
+					<a class="contact__social__link" href="a" target="_blank">
+						<i class="fab fa-twitter-square" style="color: #2196F3;"></i>
+					</a>
+					<a class="contact__social__link" href="a" target="_blank">
+						<i class="fab fa-facebook-square" style="color: #4267b2;"></i>
+					</a>
+					<a class="contact__social__link" href="a" target="_blank">
+						<i class="fab fa-github-square" style="color: #2d2d2d;"></i>
+					</a>
+				</div>
+				-->
+			</article>
+		</section>
+	</div>
+
+	<script src="https://kit.fontawesome.com/74a0a4aba0.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
